@@ -1,0 +1,11 @@
+<div class="container">
+  <ul class="people_list">
+    {{#each blogs}}
+    {{!-- <li>{{this}}</li> --}}
+    <div class="blog">
+      <a href="/blogpost/{{this.slug}}"></a>
+      <h2>{{this.title}}</h2>
+    </div>
+    {{/each}}
+  </ul>
+</div>
